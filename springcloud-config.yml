@@ -1,0 +1,18 @@
+spring: 
+ profiles: 
+  active: dev
+---
+server: 
+ port: 4001
+spring: 
+ profiles: dev
+ application: 
+  name: springcloud-config-dev
+---
+server:
+ port: 4002
+spring: 
+ profiles: prod
+ application: 
+  name: springcloud-config-prod
+  
