@@ -41,4 +41,4 @@ management:
       exposure:
         include: hystrix.stream
 emp: 
-  name: zhangsan
+  name: zhangsan1
